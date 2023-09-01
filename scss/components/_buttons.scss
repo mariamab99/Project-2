@@ -1,0 +1,26 @@
+.btn {
+  background-image: linear-gradient(
+    to bottom,
+    $secondary 5%,
+    $secondary 5%,
+    $primary 90%
+  );
+  padding: 15px 20px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 40px;
+  display: block;
+  border: none;
+  margin: 10px auto;
+}
+
+.btn:hover {
+  background-position: bottom center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}

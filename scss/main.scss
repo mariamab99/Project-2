@@ -1,0 +1,15 @@
+//base
+@import 'base/variables';
+@import 'base/reset';
+@import 'base/mixins';
+
+//
+@import 'layout/header';
+@import 'layout/footer';
+
+//buttons
+@import 'components/buttons';
+
+//pages
+@import 'pages/home';
+@import 'pages/menu';

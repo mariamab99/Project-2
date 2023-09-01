@@ -1,0 +1,6 @@
+@mixin h1-styles($color){
+        color: $primary;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 20px;
+    }

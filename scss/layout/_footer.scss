@@ -1,0 +1,24 @@
+.footer {
+  background-color: rgb(49, 49, 49);
+  color: white;
+  padding: 20px;
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    padding: 3px;
+  }
+
+  &__icon {
+    padding-right: 10px;
+  }
+}
+.title {
+  font-family: "Shrikhand", cursive;
+  margin: 0;
+  padding-bottom: 15px;
+}
