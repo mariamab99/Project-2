@@ -1,26 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: auto;
+}
 .btn {
-  background-image: linear-gradient(
-    to bottom,
-    $secondary 5%,
-    $secondary 5%,
-    $primary 90%
-  );
+  flex: 1 1 auto;
+  margin: 10px auto;
   padding: 15px 20px;
   text-align: center;
+  text-transform: uppercase;
   transition: 0.5s;
-  background-size: 50px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  background-size: 200% auto;
   color: white;
+  /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
   box-shadow: 0 0 20px #eee;
   border-radius: 40px;
-  display: block;
-  border: none;
-  margin: 10px auto;
 }
 
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
 .btn:hover {
-  background-position: bottom center; /* change the direction of the change here */
-  color: #fff;
-  text-decoration: none;
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn {
+  background-image: linear-gradient(
+    to right,
+    #f6d365 0%,
+    #fda085 51%,
+    #f6d365 100%
+  );
 }
