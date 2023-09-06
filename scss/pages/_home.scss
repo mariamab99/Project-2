@@ -138,9 +138,6 @@
     font-size: 15px;
     font-weight: 300;
   }
-  &__icons {
-    padding: 10px;
-  }
 }
 .box {
   width: 70px;
@@ -150,8 +147,8 @@
   justify-content: center;
   position: absolute;
   background-color: #99e2d0;
-  right: 0;
-  top: 0;
+  right: 13px;
+  top: 30px;
 
   &__text {
     color: green;
