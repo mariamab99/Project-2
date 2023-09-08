@@ -2,10 +2,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 .header__logo {
   width: 160px;
   height: auto;
   padding: 15px 0;
   text-align: center;
+}
+.header__arrow {
+  position: absolute;
+  left: 20px;
 }
