@@ -3,7 +3,7 @@
 }
 
 .heart-fill {
-  background: linear-gradient(pink, purple);
+  background: linear-gradient($secondary, $primary);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
