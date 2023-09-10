@@ -1,0 +1,15 @@
+.heart-icon i {
+  transition: opacity 1s ease-in-out;
+}
+
+.heart-fill {
+  background: linear-gradient(pink, purple);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  opacity: 0;
+}
+
+.heart-fill:hover {
+  opacity: 1;
+}
