@@ -26,6 +26,9 @@
     font-weight: 300;
     padding-left: 10px;
   }
+  &__heart {
+    padding-right: 25px;
+  }
   &__heading {
     font-weight: normal;
     margin-left: 20px;
@@ -57,15 +60,18 @@
   }
   &__text {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    font-size: 13px;
+    font-weight: 300;
   }
   &__euro {
+    display: flex;
     font-weight: bold;
     transition: all 0.5s ease-in-out;
     position: absolute;
     right: 0;
-    bottom: 15px;
-    padding: 20px;
+    bottom: 0px;
+    padding: 10px 14px 14px 0;
   }
   &__subheading &__text {
     white-space: nowrap;
