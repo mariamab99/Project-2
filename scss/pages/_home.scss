@@ -96,7 +96,7 @@
 
   &__column {
     width: calc(100% - 20px);
-    margin: -9px 10px;
+    margin: 10px;
     position: relative;
   }
   &__card {
@@ -107,6 +107,7 @@
     box-shadow: 3px 3px 3px $shadow;
     text-decoration: none;
     color: black;
+    display: block;
   }
   &__image {
     width: 100%;
