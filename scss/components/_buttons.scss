@@ -10,7 +10,7 @@
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
-  /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+
   box-shadow: 0 0 20px #eee;
   border-radius: 40px;
 }
@@ -18,12 +18,9 @@
   padding-left: 40px;
   padding-right: 40px;
 }
-/* Demo Stuff End -> */
-
-/* <- Magic Stuff Start */
 
 .btn:hover {
-  background-position: right center; /* change the direction of the change here */
+  background-position: right center;
 }
 
 .btn {

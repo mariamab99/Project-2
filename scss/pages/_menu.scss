@@ -48,12 +48,12 @@
   &__options {
     border-radius: 20px;
     background-color: #f6f6f6;
-    padding: 18px 18px 3px 12px;
-    margin: 20px;
-
+    padding: 15px 18px 3px 12px;
+    margin: 0 20px 10px 17px;
     position: relative;
     transition: all 0.5s ease-in-out;
     overflow: hidden;
+    box-shadow: 3px 3px 3px #ccc;
   }
 
   &__subheading {
@@ -62,7 +62,7 @@
   &__text {
     //display: flex;
     /* justify-content: space-between; */
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 300;
   }
   &__euro {
@@ -81,6 +81,7 @@
     text-overflow: ellipsis;
     transition: all 0.5s ease-in-out;
     padding-right: 50px;
+    margin-top: 3px;
   }
   &__tick {
     position: absolute;
@@ -94,29 +95,29 @@
     align-items: center;
     justify-content: center;
   }
-}
 
-.restaurant__options:hover {
-  padding-right: 110px;
-  cursor: pointer;
+  .restaurant__options:hover {
+    padding-right: 110px;
+    cursor: pointer;
 
-  .restaurant__subheading,
-  .restaurant__text {
-    padding-right: 5px;
-  }
-  .restaurant__tick {
-    right: 0;
-  }
-  .restaurant__euro {
-    right: 60px;
+    .restaurant__subheading,
+    .restaurant__text {
+      padding-right: 5px;
+    }
+    .restaurant__tick {
+      right: 0;
+    }
+    .restaurant__euro {
+      right: 60px;
+    }
+    .tick__rotate {
+      transform: rotate(360deg);
+    }
   }
   .tick__rotate {
-    transform: rotate(360deg);
+    transition: 1s;
+    transform: rotate(0deg);
+    color: white;
+    font-size: x-large;
   }
-}
-.tick__rotate {
-  transition: 1s;
-  transform: rotate(0deg);
-  color: white;
-  font-size: x-large;
 }

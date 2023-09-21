@@ -21,6 +21,12 @@
   }
 }
 
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  background: $mid-grey;
+}
+
 .explore-sec {
   text-align: center;
   background-color: $light-grey;
