@@ -114,6 +114,10 @@
     text-decoration: none;
     color: black;
     display: block;
+    transition: all 1s ease-in-out;
+    &:hover {
+      transform: scale(1.03);
+    }
   }
   &__image {
     width: 100%;

@@ -99,6 +99,7 @@
   .restaurant__options:hover {
     padding-right: 110px;
     cursor: pointer;
+    box-shadow: 3px 3px 3px $dark-grey;
 
     .restaurant__subheading,
     .restaurant__text {
