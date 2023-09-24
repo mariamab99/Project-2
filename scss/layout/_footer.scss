@@ -2,6 +2,10 @@
   background-color: rgb(49, 49, 49);
   color: white;
   padding: 20px;
+  a {
+    color: white;
+    text-decoration: none;
+  }
 
   &__list {
     list-style: none;
