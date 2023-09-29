@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+
+  @media screen and (min-width: 678px) {
+    background-image: url("../../images/restaurants/background.webp");
+  }
+}
