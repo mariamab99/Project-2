@@ -13,6 +13,9 @@
 .heart-fill:hover {
   opacity: 1;
 }
+.restaurant__heart i {
+  transition: opacity 2s ease-in-out;
+}
 .restaurant {
   &__animation {
     animation: slide-up-fade-in ease 2s;

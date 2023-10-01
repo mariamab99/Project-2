@@ -425,6 +425,10 @@ body {
   opacity: 1;
 }
 
+.restaurant__heart i {
+  transition: opacity 2s ease-in-out;
+}
+
 .restaurant__animation {
   animation: slide-up-fade-in ease 2s;
   animation-iteration-count: 1;
@@ -752,7 +756,6 @@ body {
 .restaurant .restaurant__options:hover {
   padding-right: 110px;
   cursor: pointer;
-  box-shadow: 3px 3px 3px #5f5f5f;
 }
 .restaurant .restaurant__options:hover .restaurant__subheading,
 .restaurant .restaurant__options:hover .restaurant__text {
