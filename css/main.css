@@ -374,6 +374,11 @@ body {
   font-size: small;
 }
 
+.footer__item:hover {
+  text-decoration: underline;
+  color: white;
+}
+
 .title {
   font-family: "Shrikhand", cursive;
   margin: 0;
