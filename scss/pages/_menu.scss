@@ -17,19 +17,22 @@
   position: relative;
   top: -45px;
 
-  &__title {
+  &__group {
     display: flex;
     justify-content: space-between;
     margin-right: 10px;
     margin-left: 10px;
+    padding-left: 10px;
+    position: relative;
+  }
+  &__title {
     padding: 0;
     font-family: "Shrikhand", cursive;
     font-weight: 300;
-    padding-left: 10px;
   }
   &__heart {
-    padding-right: 25px;
-    bottom: 6px;
+    font-size: 20px;
+    bottom: -17px;
   }
   &__heading {
     font-weight: normal;
