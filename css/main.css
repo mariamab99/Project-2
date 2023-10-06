@@ -495,7 +495,6 @@ body.home {
   border-bottom-color: #9356dc;
   border-radius: 50%;
   display: inline-block;
-  box-sizing: border-box;
   animation: rotation 1s linear infinite;
 }
 
