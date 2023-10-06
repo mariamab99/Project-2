@@ -323,6 +323,10 @@ body {
   }
 }
 
+body.home {
+  background: none;
+}
+
 .header {
   background-color: white;
 }
